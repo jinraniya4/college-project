@@ -40,12 +40,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get(
   "/",
-  wrapAsync(async(req, res) => {
-    // res.send("hii , i am root");
-    const allListings =  await Listing.find({});
-
-
-    res.render("listings/index.ejs", { allListings });  })
+  wrapAsync((req, res) => {
+    res.send("hii , i am root");
+  })
 );
 
 // this code is used to aUthenticate the user so that the user login agaian is the website they do not need to login again and again
@@ -82,13 +79,13 @@ const validateListing = (req, res, next) => {
 // });
 
 //Index Route
-// app.get(
-//   "/listings",
-//   wrapAsync(async (req, res) => {
-//     const allListings = await Listing.find({});
-//     res.render("listings/index.ejs", { allListings });
-//   })
-// );
+app.get(
+  "/listings",
+  wrapAsync(async (req, res) => {
+    const allListings = await Listing.find({});
+    res.render("listings/index.ejs", { allListings });
+  })
+);
 
 // buy route
 app.get(
