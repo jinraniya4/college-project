@@ -42,8 +42,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 //   "/",
 //   wrapAsync((req, res) => {
 //     // res.send("hii , i am root");
-//     res.render('index', req.query)
-//   })
+    
+
+//     res.render("listings/index.ejs", { allListings });  })
 // );
 
 // this code is used to aUthenticate the user so that the user login agaian is the website they do not need to login again and again
