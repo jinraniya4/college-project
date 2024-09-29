@@ -1,0 +1,534 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar {
+    height: 5rem !important;
+    background-color: white;
+}
+
+.container {
+    flex: 1;
+}
+
+.fa-compass {
+    color: #fe424d;
+    font-size: 2rem !important;
+}
+
+
+
+.lav-link {
+    color: #222222 !important;
+}
+
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-socials {
+    font-size: 1.5rem;
+}
+
+.f-info-links a:hover {
+    text-decoration: underline;
+
+}
+
+.f-info {
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+
+
+}
+
+
+/* cards */
+
+.card {
+    border: none !important;
+    margin-bottom: 1rem !important;
+
+}
+
+
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% imo !important;
+    object-fit: cover imo !important;
+
+}
+
+
+.card-body {
+    padding: 0 !important;
+}
+
+.card-text p {
+    font-weight: 400;
+}
+
+.listing-link {
+    text-decoration: none;
+}
+
+/* cards effects */
+.card-img-overlay {
+    opacity: 0;
+}
+
+.card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: white;
+}
+
+.add-btn {
+
+    background-color: #fe424d !important;
+
+}
+
+/* show page */
+.show-img {
+    height: 70vh;
+}
+
+.btn11111 {
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+.btn11111:hover {
+    background-color: #ec1826 !important;
+    border: 2px solid black;
+}
+
+
+
+sub {
+
+    font-family: sans-serif;
+    color: #000000;
+}
+
+.special {
+    font-family: sans-serif;
+    font-size: 30px !important;
+}
+
+
+/* ---------------------------------------------------- */
+/* .location-button{
+    width: 70% !important;
+    margin-left: 0% !important;
+   
+} */
+
+.srch {
+    display: flex;
+    gap: 0;
+
+
+}
+
+.tsrch input {
+    border-radius: 50px 0px 0px 50px;
+    border: 0.5px solid grey !important;
+    height: 35px;
+    width: 400px;
+
+}
+
+.bsrch button {
+    border: 0.5px solid grey;
+    background-color: rgba(192, 186, 186, 0.647);
+    color: black;
+    border-radius: 0px 50px 50px 0px;
+    border-left: none;
+    height: 35px;
+
+
+}
+
+.bsrch button:hover {
+    background-color: rgb(192, 186, 186);
+}
+
+.tsrch input:hover {
+    border: 0.5px solid grey;
+
+}
+
+@media (max-width: 770px) {
+    .tsrch {
+        color: red;
+    }
+}
+
+.gapss {
+    display: flex;
+    gap: 10rem;
+}
+
+.collapsess {
+    display: flex;
+    gap: 10rem;
+}
+
+.loginn {
+    color: #1c1c1c;
+}
+
+/* .buybtn {
+    border-radius: 10px;
+    
+    border: none;
+    color: #f6f6f6;
+    background-color: #ff0011c3;
+    width: 20rem;
+    margin-top: 0rem;
+    margin-bottom: 3rem;
+
+} */
+
+.buybtn:hover {
+    background-color: rgb(236, 31, 31);
+}
+
+.buyborder {
+    box-shadow: rgb(173, 168, 168) 0.5px 3px 3px 3px !important;
+    border-radius: 20px;
+    width: 22rem !important;
+    height: 28rem;
+    border: 0px solid grey;
+    padding-left: 1rem !important;
+    padding-top: 1rem !important;
+
+    margin: 40px;
+
+
+}
+
+.buymargin {
+    margin-top: 20px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buyborder:hover {
+    transform: scale(1.05);
+    transition: 1s ease-in-out;
+
+
+}
+
+
+.term {
+
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    letter-spacing: 1px;
+}
+
+.headd {
+    color: #fe424d;
+
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 20px;
+    margin: 20px;
+
+}
+
+
+.f-info-links a :hover {
+    color: rgba(42, 113, 246, 0.822);
+
+}
+
+
+/* Cites---------------------------------------- */
+
+/* .cites{
+    display: grid;
+    display: flex;
+    gap: 20px;
+} */
+/* .city{
+    box-shadow: rgb(173, 168, 168) 0.5px 3px 3px 3px !important;
+    border: none;
+    width: 120px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+
+ 
+}
+
+.city-img{
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.city-name p{
+    font-size: 15px;
+    font-family: serif;
+    font-weight: 100px;
+    
+   
+    
+} */
+
+
+.card-group {
+    display: flex;
+    gap: 60px;
+}
+
+.card11:hover{
+    transform: scale(1.05);
+    transition: 0.5s ease-in;
+
+}
+
+/* .card img{
+    height: 10rem;
+    width: 20rem;
+
+
+
+} */
+
+.card11 {
+
+    border-radius: 15px !important;
+    box-shadow: rgb(173, 168, 168) 0.5px 3px 3px 3px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.head111 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+/* top img */
+
+
+.toopp {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px !important;
+    box-shadow: rgb(173, 168, 168) 0.5px 3px 3px 3px !important;
+    display: flex;
+    gap: 4rem;
+}
+
+.top {
+
+    height: 25rem;
+    border-radius: 20px !important;
+    display: flex;
+    align-items: flex-end;
+
+
+
+}
+
+.topp img {
+    max-width: 40rem;
+    border-radius: 0px 0px 0px 20px;
+
+}
+
+.heaad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heaaddd {
+    font-size: 4rem;
+    font-weight: 50px;
+    font-family: serif;
+    color: #fe424d;
+}
+
+.btntop{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+.buybtn1 button{
+    background-color: #e21f22;
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.buybtn1 button:hover{
+    color: #76030a
+}
+
+.head-property{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 30px;
+    font-family: serif;
+    color: #fe424d;
+
+}
+.logosss{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.all-city{
+    margin: 20px !important;
+}
+
+
+ .buybtn {
+    border-radius: 10px;
+    
+    border: none;
+    color: #f6f6f6;
+    background-color: #ff0011c3;
+    width: 10rem;
+    margin-top: 0rem;
+    margin-bottom: 3rem;
+
+} 
+
+.buy-contact-btn{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.colorrrr{
+    background-color: rgb(110, 146, 94);
+}
+
+.colorrrr:hover{
+    background-color: rgb(49, 119, 49);
+}
+
+.buybtn22{
+    border-radius: 10px;
+    
+    border: none;
+    color: #f6f6f6;
+    background-color: #ff0011c3;
+    width: 20rem;
+    margin-top: 0rem;
+    margin-bottom: 3rem;
+
+}
+
+/* Signup  */
+
+.signup{
+
+    margin-bottom: 8rem !important;
+    /* border-radius: 20px !important;
+    box-shadow: rgb(173, 168, 168) 0.5px 3px 3px 3px !important;
+    height: 55rem;
+    width: 35rem ; */
+    
+    
+   
+    
+}
+
+.loginform{
+    height: 35rem;
+    width: 30rem;
+
+    border-radius: 20px !important;
+    box-shadow: rgb(173, 168, 168) 0.5px 3px 3px 3px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+   
+}
+
+.formlogin{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchhhh{
+    margin-top: 1rem;
+    display: flex;
+    
+}
+
+.form-outline input{
+    width: 20rem;
+    border-radius: 5px 0px 0px 5px ;
+}
+
+.formbutton button{
+    background-color: grey !important;
+    border-radius: 0px 5px 5px 0px;
+}
+
+/* .signupppp{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    margin-left: 50rem;
+} */
+
+.signnnn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px !important;
+    box-shadow: rgb(173, 168, 168) 0.5px 3px 3px 3px !important;
+}
+
+.recommendhead{
+    font-size: 3rem;
+    font-weight: 30px;
+    font-family: serif;
+    color: #fe424d;
+}
